@@ -1,15 +1,27 @@
+html {
+  height: 100%;
+}
+
 body {
-    margin: 0;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100%;
 }
 
 header {
-    background-color: lightskyblue;
+  background-color: lightskyblue;
+  padding: 15px 20px;
 }
 
 main {
-    background-color: lightcyan;
+  background-color: lightcyan;
+  padding: 15px 20px;
 }
 
 footer {
-    background-color: lightblue;
+  background-color: lightblue;
+  padding: 15px 20px;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
